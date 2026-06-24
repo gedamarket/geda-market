@@ -9,51 +9,49 @@
 body{
     margin:0;
     font-family:Arial,sans-serif;
-    background:#f4f4f4;
+    background:#f5f5f5;
 }
 header{
-    background:#1b8f3b;
+    background:#008000;
     color:white;
+    padding:15px;
     text-align:center;
-    padding:20px;
-}
-nav{
-    background:#146c2e;
-    text-align:center;
-    padding:10px;
-}
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
-}
-.hero{
-    text-align:center;
-    padding:40px 20px;
-}
-.hero h2{
-    color:#1b8f3b;
 }
 .products{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
     gap:20px;
     padding:20px;
 }
 .card{
     background:white;
+    width:220px;
     border-radius:10px;
-    padding:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
     text-align:center;
-    box-shadow:0 2px 5px gray;
+    padding:15px;
+}
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+button{
+    background:#008000;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{
+    background:darkgreen;
 }
 footer{
-    background:#1b8f3b;
+    background:#222;
     color:white;
     text-align:center;
     padding:15px;
-    margin-top:30px;
 }
 </style>
 
@@ -62,47 +60,36 @@ footer{
 
 <header>
 <h1>🛒 Geda Market</h1>
-<p>Supermarket fi Uffata Gatii Gaariidhaan</p>
+<p>Baga Nagaan Dhuftan!</p>
 </header>
 
-<nav>
-<a href="#">Home</a>
-<a href="#">Supermarket</a>
-<a href="#">Uffata</a>
-<a href="#">Nu Qunnamaa</a>
-</nav>
-
-<section class="hero">
-<h2>Baga Nagaan Dhufte!</h2>
-<p>Geda Market keessatti nyaata, uffata fi meeshaalee adda addaa argattu.</p>
-</section>
-
-<section class="products">
+<div class="products">
 
 <div class="card">
-<h3>🍚 Nyaata</h3>
-<p>Ruuzii, Xaafii, Sukkaara fi kkf.</p>
+<img src="https://via.placeholder.com/200" alt="">
+<h3>Bilbila</h3>
+<p>100 USD</p>
+<button>Biti</button>
 </div>
 
 <div class="card">
-<h3>👕 Uffata</h3>
-<p>Uffata Dhiiraa, Dubartootaa fi Daa'immanii.</p>
+<img src="https://via.placeholder.com/200" alt="">
+<h3>Laptop</h3>
+<p>500 USD</p>
+<button>Biti</button>
 </div>
 
 <div class="card">
-<h3>🥤 Dhugaatii</h3>
-<p>Bishaan, Juusii fi Dhugaatii biroo.</p>
+<img src="https://via.placeholder.com/200" alt="">
+<h3>Uffata</h3>
+<p>25 USD</p>
+<button>Biti</button>
 </div>
 
-<div class="card">
-<h3>🧴 Meeshaalee Manaa</h3>
-<p>Saamunaa, Shaampoo fi kkf.</p>
 </div>
-
-</section>
 
 <footer>
-<p>© 2025 Geda Market | Hojjetame Naji Amed Hassen</p>
+<p>© 2026 Geda Market</p>
 </footer>
 
 </body>
