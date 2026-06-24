@@ -1,10 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="om">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Geda Market</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+header{
+    background:#1b8f3b;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+nav{
+    background:#146c2e;
+    text-align:center;
+    padding:10px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+.hero h2{
+    color:#1b8f3b;
+}
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    padding:20px;
+}
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 2px 5px gray;
+}
+footer{
+    background:#1b8f3b;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+
 </head>
 <body>
-<h1>Baga nagaan dhuftan Geda Market</h1>
-<p>Kun website koo isa jalqabaa dha.</p>
+
+<header>
+<h1>🛒 Geda Market</h1>
+<p>Supermarket fi Uffata Gatii Gaariidhaan</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Supermarket</a>
+<a href="#">Uffata</a>
+<a href="#">Nu Qunnamaa</a>
+</nav>
+
+<section class="hero">
+<h2>Baga Nagaan Dhufte!</h2>
+<p>Geda Market keessatti nyaata, uffata fi meeshaalee adda addaa argattu.</p>
+</section>
+
+<section class="products">
+
+<div class="card">
+<h3>🍚 Nyaata</h3>
+<p>Ruuzii, Xaafii, Sukkaara fi kkf.</p>
+</div>
+
+<div class="card">
+<h3>👕 Uffata</h3>
+<p>Uffata Dhiiraa, Dubartootaa fi Daa'immanii.</p>
+</div>
+
+<div class="card">
+<h3>🥤 Dhugaatii</h3>
+<p>Bishaan, Juusii fi Dhugaatii biroo.</p>
+</div>
+
+<div class="card">
+<h3>🧴 Meeshaalee Manaa</h3>
+<p>Saamunaa, Shaampoo fi kkf.</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2025 Geda Market | Hojjetame Naji Amed Hassen</p>
+</footer>
+
 </body>
 </html>
